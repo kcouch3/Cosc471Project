@@ -1,0 +1,74 @@
+<html>
+
+<center>
+	<h2> New Patient Registration </h2>
+</center>
+
+<form action="patRegPhp.php" method="POST">
+
+<div style="float: left; width: 50%;">
+<ul>
+
+<h3>Personal Information</h3>
+
+<p>	First Name &nbsp; &nbsp; &nbsp; &nbsp;
+<input type="text" id="fname" name="fname"></input>
+</p>
+
+<p>	Last Name &nbsp; &nbsp; &nbsp; &nbsp;
+<input type="text" id="lname" name="lname"></input>
+</p>
+
+<p>	Phone Number &nbsp;
+<input type="text" id="phoneNum" name="phoneNum"></input>
+</p>
+
+<p>	Email &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+<input type="text" id="email" name="email"></input>
+</p>
+
+<p>	Date of Birth &nbsp; &nbsp;
+<input type="Date" id="dob" name="dob"></input>
+</p>
+
+<p>	Gender &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;
+<input type="radio" id="male" name="gender" value="male">
+<label for="male">Male</label>
+<input type="radio" id="female" name="gender" value="female">
+<label for="female">Female</label>
+</p>
+
+<p>	Password &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<input type="text" id="pw" name="pw"></input>
+</p>
+
+</ul>
+</div>
+
+<div style="float: right; width: 50%;">
+<ul>
+
+<h3>Current Address</h3>
+
+<p>	Street &nbsp;&nbsp;&nbsp;&nbsp;
+<input type="text" id="street" name="street"></input>
+</p>
+
+<p>	City &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<input type="text" id="city" name="city"></input>
+</p>
+
+<p>	State &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<input type="text" id="state" name="state"></input>
+</p>
+
+<p>	Zipcode &nbsp;
+<input type="text" id="zipcode" name="zipcode"></input>
+</p>
+
+</ul>
+</div>
+
+<input type="submit" id="btn" value="Register"></input>
+
+</html>
